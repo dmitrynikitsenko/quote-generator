@@ -6,9 +6,26 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
   <title>Quote generator</title>
 </head>
 <body>
-  <div class="app" id="app"></div>
+  <div class="loader"></div>
+  <div class="quote-container">
+
+    <div class="quote-text js-quote-text"></div>
+
+    <div class="quote-author js-quote-author"></div>
+
+    <div class="btn-container">
+
+      <button class="twitter-btn js-twitter-btn">
+        <i class="fab fa-twitter"></i>
+      </button>
+
+      <button class="quote-btn js-quote-btn">New Quote</button>
+    </div>
+  </div>
 </body>
 </html>
